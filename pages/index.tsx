@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white ">
       <Header />
-      <section className="container mx-auto mt-12 px-4 md:px-0">
+      <section className="container mx-auto mt-12 mb-20 px-4 md:px-0">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-100 to-teal-400">Welcome to the Student Investment Club</h1>
           <p className="text-lg mb-8">
