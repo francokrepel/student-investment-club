@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Image from 'next/image';
 
 const hallOfFameData = [
   {
@@ -25,7 +26,11 @@ export default function HallOfFame() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-0">
           {hallOfFameData.map((item, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg">
-              <img src={item.profileImg} alt={item.winner} className="mx-auto h-32 w-32 rounded-full mb-4" />
+              <Image 
+              src={item.profileImg} 
+              alt={item.winner} 
+              className="mx-auto h-32 w-32 rounded-full mb-4"
+               />
               <h3 className="text-2xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-400">{item.winner}</h3>
               <p className="text-lg mb-2">Semester: {item.semester}</p>
               <p className="text-lg text-yellow-400">Overall Gains: {item.gain}</p>
