@@ -28,6 +28,8 @@ export default function HallOfFame() {
             <div key={index} className="bg-gray-800 p-6 rounded-lg">
               <Image 
               src={item.profileImg} 
+              height={100}
+              width={100}
               alt={item.winner} 
               className="mx-auto h-32 w-32 rounded-full mb-4"
                />

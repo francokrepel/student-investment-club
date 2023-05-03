@@ -49,8 +49,8 @@ export default function Home() {
           {meeting_images.map((url, index) => (
             <div key={index}>
               <Image
-              width={500}
-              height={500}
+              width={300}
+              height={300}
                src={url} 
                alt={`Semester meeting ${index + 1}`}
                 className="w-full h-auto rounded-lg shadow-md" 

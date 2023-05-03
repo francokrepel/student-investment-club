@@ -110,8 +110,8 @@ const ExecutiveBoard = () => {
               <Image
                 src={member.image!}
                 alt={`${member.name}'s profile picture`}
-                width={500}
-                height={500}
+                width={100}
+                height={100}
                 className="w-36 h-36 mx-auto mb-4 rounded-full"
               />
               <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
