@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaInstagram } from 'react-icons/fa';
+import Image from 'next/image'
 
 const meeting_images = [
   '/meeting_pic_1.jpeg',
@@ -47,7 +48,13 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-12">
           {meeting_images.map((url, index) => (
             <div key={index}>
-              <img src={url} alt={`Semester meeting ${index + 1}`} className="w-full h-auto rounded-lg shadow-md" />
+              <Image
+              width={500}
+              height={500}
+               src={url} 
+               alt={`Semester meeting ${index + 1}`}
+                className="w-full h-auto rounded-lg shadow-md" 
+                />
             </div>
           ))}
         </div>
