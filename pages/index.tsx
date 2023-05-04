@@ -45,7 +45,7 @@ export default function Home() {
         </div>
 
         {/* Image Gallery */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-12">
           {meeting_images.map((url, index) => (
             <div key={index}>
               <Image
