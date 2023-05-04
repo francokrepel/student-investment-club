@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import  AiFillLinkedin from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image'
 
 const executiveBoardMembers = [
@@ -8,7 +8,7 @@ const executiveBoardMembers = [
       name: 'Jagger Liguori',
       position: 'President',
       email: 'jagger.liguori@ufl.edu',
-      linkedin: '<Jagger_Liguori_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/jagger-liguori/',
       image: '/jagger.jpg',
     },
     {
@@ -16,7 +16,7 @@ const executiveBoardMembers = [
       name: 'Adam Weinberg',
       position: 'Treasurer',
       email: 'adamweinberg@ufl.edu',
-      linkedin: '<Adam_Weinberg_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/adam-weinberg-417ab1191/',
       image: '/adam.jpeg',
     },
     {
@@ -24,7 +24,7 @@ const executiveBoardMembers = [
       name: 'Olivia Giraldo',
       position: 'Vice President',
       email: 'oliviagiraldo@ufl.edu',
-      linkedin: '<Olivia_Giraldo_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/oliviamgiraldo/',
       image: '/olivia.jpg',
     },
     {
@@ -32,7 +32,7 @@ const executiveBoardMembers = [
       name: 'Jordon Neal',
       position: 'Secretary',
       email: 'jordon.neal@ufl.edu',
-      linkedin: '<Jordon_Neal_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/jordonneal/',
       image: '/jordon.jpeg',
     },
     {
@@ -40,14 +40,14 @@ const executiveBoardMembers = [
       name: 'Jonathon Goldberg',
       position: 'Recruitment Co-Director',
       email: 'jonathangoldberg@ufl.edu',
-      linkedin: '<Jonathon_Goldberg_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/jonathon-goldberg/',
       image: '/jon.jpg',
     },
     {
       name: 'Jonathon Tibi',
       position: 'Recruitment Co-Director',
       email: 'jonathan.tibi@warrington.ufl.edu',
-      linkedin: '<Jonathon_Tibi_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/jonathan-tibi/',
       image: '/jonathon_tibi.png',
     },
     {
@@ -55,7 +55,7 @@ const executiveBoardMembers = [
       name: 'Lauren "Abby" Perini',
       position: 'Historian',
       email: 'lperini@ufl.edu',
-      linkedin: '<Lauren_Perini_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/lauren-abby-perini/',
       image: '/abby.jpg',
     },
     // PROGRAMMING
@@ -63,20 +63,21 @@ const executiveBoardMembers = [
       name: 'Michael Rooth',
       position: 'Programming Co-Director',
       email: 'michaelrooth@ufl.edu',
-      linkedin: '<Michael_Rooth_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/michael-rooth-a8505a214/',
       image: '/m_rooth.jpg',
     },
     {
       name: 'Kameron Lubben',
       position: 'Programming Co-Director',
       email: 'klubben@ufl.edu',
-      linkedin: '<Kameron_Lubben_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/kameronlubben/',
       image: '/kameron.jpeg',
     },
     {
       name: 'Devin Mohr',
       position: 'Programming Co-Director',
       email: 'd.mohr@ufl.edu',
+      linkedin: 'https://www.linkedin.com/in/devinmohr/',
       image: '/devin.png',
     },
     // CURRENT EVENTS
@@ -84,7 +85,7 @@ const executiveBoardMembers = [
       name: 'Aaron Goffstein',
       position: 'Current Events',
       email: 'aarongoffstein@ufl.edu',
-      linkedin: '<Aaron_Goffstein_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/aaron-goffstein-/',
       image: '/aaron.jpeg',
     },
     // WEBSITE
@@ -92,7 +93,7 @@ const executiveBoardMembers = [
       name: 'Franco Krepel',
       position: 'Website Developer',
       email: 'francokrepel@ufl.edu',
-      linkedin: '<Franco_Krepel_LinkedIn_URL>',
+      linkedin: 'https://www.linkedin.com/in/franco-krepel-a241b21b7/',
       image: '/franco_krepel.jpeg',
     }
 ]
@@ -118,11 +119,13 @@ const ExecutiveBoard = () => {
               <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
               <p className="text-lg mb-2">{member.position}</p>
               <p className="text-lg mb-2">{member.email}</p>
-              <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                {/* <div className="w-6 h-6">
-                    <AiFillLinkedin />
-                </div> */}
-              </a>
+              <div className="mx-auto flex items-center">
+                <a href={member.linkedin} 
+                target="_blank" 
+                rel="noopener noreferrer">
+                <AiFillLinkedin className="text-5xl hover:text-blue-400"/>
+                </a>
+              </div>
             </div>
             
           ))}
