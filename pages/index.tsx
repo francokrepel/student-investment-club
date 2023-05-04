@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaSlack } from 'react-icons/fa';
 import Image from 'next/image'
 
 const meeting_images = [
@@ -64,6 +64,7 @@ export default function Home() {
           <p className="text-lg mb-6">
             Join our meetings every Tuesday at 6:30 PM in Heavener Hall 250.
           </p>
+
           {/* Social Media Buttons */}
           <div className="flex justify-center items-center space-x-4 gap-10 ">
             <a
@@ -72,6 +73,13 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <FaInstagram className="text-7xl hover:text-red-400" />
+            </a>
+            <a
+              href="https://join.slack.com/t/ufstudentinve-6zm9629/shared_invite/zt-1ujguv99w-U3snOApVz7rFoKSWK1cFQA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaSlack className="text-7xl hover:text-green-400" />
             </a>
             <a
               href="https://www.linkedin.com/company/uf-student-investment-club/"
