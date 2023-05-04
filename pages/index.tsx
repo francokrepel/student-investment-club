@@ -33,7 +33,7 @@ export default function Home() {
           <div className="bg-gray-800 p-6 rounded-lg">
             <h3 className="text-2xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-teal-400">Real-World Experience</h3>
             <p>
-              Participate in interactive workshops, mock trading sessions, and our signature student-managed investment fund. These hands-on activities provide a unique opportunity to apply your newfound knowledge and develop essential skills for investing in the real world.
+              Participate in interactive workshops, how-to-trade sessions, and our signature MarketWatch investment challenge. These hands-on activities provide a unique opportunity to apply your newfound knowledge and develop essential skills for investing in the real world.
             </p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg ">
@@ -93,10 +93,10 @@ export default function Home() {
 
 
         {/* Calendar */}
-        <div className="my-6">
-          <h2 className="text-3xl font-bold mb-6 text-center">Event Calendar</h2>
-          <p className="text-center mb-6"></p>
-          <div className="relative w-full md:w-3/4 lg:w-1/2 mx-auto invert saturate-50 hue-rotate-30">
+        <div className="my-6 ">
+          <h2 className="text-3xl font-bold mb-6 text-center" >Event Calendar</h2>
+          <p className="flex justify-center text-center mb-6"></p>
+          <div className="w-full mx-auto invert saturate-50 hue-rotate-30 ">
             <div className="pb-[50%] md:pb-[66.666%]"></div>
             <iframe
               src='https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=dWZsb3JpZGFzaWNAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2322AA99&amp;color=%23329262&amp;color=%231F753C&amp;showTz=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTitle=0'
