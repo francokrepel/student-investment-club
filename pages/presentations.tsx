@@ -49,7 +49,7 @@ const Presentations = () => {
             <Header />
             <section className="container mx-auto mt-4 px-4 md:px-0">
                 <h1 className="text-4xl font-bold mb-6 text-center">Presentations</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 p-20 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 py-20 gap-8">
                     {presentations.map((presentation) => (
                         <div key={presentation.title} className="bg-gray-800 p-6 rounded-lg">
                             <h3 className="text-2xl font-bold mb-2">{presentation.title}</h3>
