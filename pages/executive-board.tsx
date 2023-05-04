@@ -102,8 +102,9 @@ const ExecutiveBoard = () => {
     <div className="bg-black text-white min-h-screen">
       <Header />
       <section className="container mx-auto mt-12 px-4 md:px-0">
-        <h1 className="text-4xl font-bold mb-6 text-center">Executive Board</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 p-20 lg:grid-cols-3 gap-8 px-4 md:px-0">
+        <h1 className="text-4xl font-bold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-green-100 to-teal-400">Executive Board</h1>
+        <p className="text-lg text-center">Meet our executive board.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 py-10 lg:grid-cols-3 gap-8 px-4 md:px-0">
           {executiveBoardMembers.map((member) => (
            console.log(member.image),
             <div key={member.name} className="bg-gray-800 p-6 rounded-lg">
