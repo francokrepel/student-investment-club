@@ -107,7 +107,6 @@ const ExecutiveBoard = () => {
         <p className="text-lg text-center">Meet our executive board.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 py-10 lg:grid-cols-3 gap-8 px-4 md:px-0">
           {executiveBoardMembers.map((member) => (
-           console.log(member.image),
             <div key={member.name} className="bg-gray-800 p-6 rounded-lg">
               <Image
                 src={member.image!}
@@ -117,7 +116,7 @@ const ExecutiveBoard = () => {
                 className="w-36 h-36 mx-auto mb-4 rounded-full"
               />
               <h3 className="text-2xl font-bold mb-2">{member.name}</h3>
-              <p className="text-lg mb-2">{member.position}</p>
+              <p className="text-lg mb-2 text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-teal-400">{member.position}</p>
               <p className="text-lg mb-2">{member.email}</p>
               <div className="mx-auto flex items-center">
                 <a href={member.linkedin} 
