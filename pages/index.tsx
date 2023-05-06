@@ -79,6 +79,7 @@ export default function Home() {
                 <Image
                   width={500}
                   height={500}
+                  priority
                   src={url}
                   alt={`Semester meeting ${index + 1}`}
                   className="w-full h-auto rounded-lg shadow-md"
