@@ -1,6 +1,9 @@
 import Header from '../components/Header';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FaInstagram, FaSlack } from 'react-icons/fa';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import Image from 'next/image'
 
 const meeting_images = [
@@ -44,25 +47,52 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Image Gallery */}
+        {/* Image Gallery
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 my-12">
           {meeting_images.map((url, index) => (
             <div key={index}>
               <Image
-              width={300}
-              height={300}
-               src={url} 
-               alt={`Semester meeting ${index + 1}`}
-                className="w-full h-auto rounded-lg shadow-md" 
-                />
+                width={300}
+                height={300}
+                src={url}
+                alt={`Semester meeting ${index + 1}`}
+                className="w-full h-auto rounded-lg shadow-md"
+              />
             </div>
           ))}
+        </div> */}
+
+        {/* Image Slideshow */}
+        <div className="my-12 mx-auto max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl">
+          <Carousel
+            autoPlay
+            infiniteLoop
+            showThumbs={false}
+            showStatus={false}
+            showIndicators={false}
+            interval={3000}
+            transitionTime={600}
+            swipeable
+          >
+            {meeting_images.map((url, index) => (
+              <div key={index}>
+                <Image
+                  width={500}
+                  height={500}
+                  src={url}
+                  alt={`Semester meeting ${index + 1}`}
+                  className="w-full h-auto rounded-lg shadow-md"
+                />
+              </div>
+            ))}
+          </Carousel>
         </div>
+
         {/* Join the Club */}
         <div className="my-12 text-center">
           <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-100 to-teal-400">Interested in joining?</h2>
           <p className="text-lg mb-6">
-            Join our meetings every Tuesday at 6:30 PM in Heavener Hall 250.
+            Join our meetings every Tuesday at 6:30 PM in Heavener Hall 140.
           </p>
 
           {/* Social Media Buttons */}
