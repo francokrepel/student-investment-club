@@ -126,7 +126,7 @@ export default function Home() {
         {/* Calendar */}
         <div className="my-6 ">
           <h2 className="text-3xl font-bold mb-6 text-center" >Event Calendar</h2>
-          <p className="flex justify-center text-center mb-6"></p>
+          <p className="relative w-full md:w-3/4 lg:w-1/2"></p>
           <div className="w-full mx-auto invert saturate-50 hue-rotate-30 ">
             <div className="pb-[50%] md:pb-[66.666%]"></div>
             <iframe
