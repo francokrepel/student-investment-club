@@ -3,100 +3,144 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import Image from 'next/image'
 
 const executiveBoardMembers = [
-    {
-      // PRESIDENT
-      name: 'Jagger Liguori',
-      position: 'President',
-      email: 'jagger.liguori@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/jagger-liguori/',
-      image: '/jagger.jpg',
-    },
-    {
-      // TREASURER
-      name: 'Adam Weinberg',
-      position: 'Treasurer',
-      email: 'adamweinberg@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/adam-weinberg-417ab1191/',
-      image: '/adam.jpeg',
-    },
-    {
-      // VICE PRESIDENT
-      name: 'Olivia Giraldo',
-      position: 'Vice President',
-      email: 'oliviagiraldo@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/oliviamgiraldo/',
-      image: '/olivia.jpg',
-    },
-    {
-      // SECRETARY
-      name: 'Jordon Neal',
-      position: 'Secretary',
-      email: 'jordon.neal@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/jordonneal/',
-      image: '/jordon.jpeg',
-    },
-    {
-      // RECRUITMENT
-      name: 'Jonathon Goldberg',
-      position: 'Recruitment Co-Director',
-      email: 'jonathangoldberg@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/jonathon-goldberg/',
-      image: '/jon.jpg',
-    },
-    {
-      name: 'Jonathon Tibi',
-      position: 'Recruitment Co-Director',
-      email: 'jonathan.tibi@warrington.ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/jonathan-tibi/',
-      image: '/jonathon_tibi.png',
-    },
-    {
-      // HISTORIAN
-      name: 'Lauren "Abby" Perini',
-      position: 'Historian',
-      email: 'lperini@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/lauren-abby-perini/',
-      image: '/abby.jpg',
-    },
-    // PROGRAMMING
-    {
-      name: 'Michael Rooth',
-      position: 'Programming Co-Director',
-      email: 'michaelrooth@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/michael-rooth-a8505a214/',
-      image: '/m_rooth.jpg',
-    },
-    {
-      name: 'Kameron Lubben',
-      position: 'Programming Co-Director',
-      email: 'klubben@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/kameronlubben/',
-      image: '/kameron.jpeg',
-    },
-    {
-      name: 'Devin Mohr',
-      position: 'Programming Co-Director',
-      email: 'd.mohr@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/devinmohr/',
-      image: '/devin.png',
-    },
-    // CURRENT EVENTS
-    {
-      name: 'Aaron Goffstein',
-      position: 'Current Events',
-      email: 'aarongoffstein@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/aaron-goffstein-/',
-      image: '/aaron.jpeg',
-    },
-    // WEBSITE
-    {
-      name: 'Franco Krepel',
-      position: 'Website Developer',
-      email: 'francokrepel@ufl.edu',
-      linkedin: 'https://www.linkedin.com/in/franco-krepel-a241b21b7/',
-      image: '/franco_krepel.jpeg',
-    }
-]
+  {
+    name: 'Jagger Liguori',
+    position: 'President',
+    email: 'jagger.liguori@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/jagger-liguori/',
+    image: '/jagger.jpg',
+  },
+  {
+    name: 'Abby Perini',
+    position: 'VP',
+    email: 'lperini@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/lauren-abby-perini/',
+    image: '/abby.jpg',
+  },
+  {
+    name: 'Devin Mohr',
+    position: 'Treasurer',
+    email: 'd.mohr@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/devinmohr/',
+    image: '/devin.png',
+  },
+  {
+    name: 'Kameron Lubben',
+    position: 'Secretary',
+    email: 'klubben@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/kameronlubben/',
+    image: '/kameron.jpeg',
+  },
+  {
+    name: 'Gaby Dos Santos',
+    position: 'Historian',
+    // Assuming the email, linkedin, and image details are not available for Gaby Dos Santos
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/gabrieladossantos319/',
+    image: '/gabriela.jpeg',
+  },
+  {
+    name: 'Aaron Goffstein',
+    position: 'Current Events',
+    email: 'aarongoffstein@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/aaron-goffstein-/',
+    image: '/aaron.jpeg',
+  },
+  {
+    name: 'Franco Krepel',
+    position: 'Web Manager',
+    email: 'francokrepel@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/franco-krepel-a241b21b7/',
+    image: '/franco_krepel.jpeg',
+  },
+  {
+    name: 'Yasmin Karazoun',
+    position: 'Social Media Director',
+    // Assuming the email, linkedin, and image details are not available for Yasmin Karazoun
+    email: '',
+    linkedin: '',
+    image: '/yasmin.png',
+  },
+  {
+    name: 'Moksha Saripilli',
+    position: 'Social Media Director',
+    // Assuming the email, linkedin, and image details are not available for Moksha Saripilli
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/moksha-saripilli-32250a256/',
+    image: '/moksha.jpeg',
+  },
+  {
+    name: 'Jonathan Tibi',
+    position: 'Recruiting Committee Head',
+    email: 'jonathan.tibi@warrington.ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/jonathan-tibi/',
+    image: '/jonathon_tibi.png',
+  },
+  {
+    name: 'Luke Riahifar',
+    position: 'Recruiting Committee',
+    // Assuming the email, linkedin, and image details are not available for Luke Riahifar
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/luke-riahifar-7841b0250/',
+    image: '/luke.jpeg',
+  },
+  {
+    name: 'Brijesh Patel',
+    position: 'Recruiting Committee',
+    // Assuming the email, linkedin, and image details are not available for Brijesh Patel
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/brijeshcpatel/',
+    image: '/brijesh.jpeg',
+  },
+  {
+    name: 'Josiah Park',
+    position: 'Recruiting Committee',
+    // Assuming the email, linkedin, and image details are not available for Josiah Park
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/josiahpark/',
+    image: '/josiah.jpeg',
+  },
+  {
+    name: 'Michael Rooth',
+    position: 'Programming Committee Head',
+    email: 'michaelrooth@ufl.edu',
+    linkedin: 'https://www.linkedin.com/in/michael-rooth-a8505a214/',
+    image: '/m_rooth.jpg',
+  },
+  {
+    name: 'Gracie Ding',
+    position: 'Programming Committee',
+    // Assuming the email, linkedin, and image details are not available for Gracie Ding
+    email: '',
+    linkedin: '',
+    image: '',
+  },
+  {
+    name: 'Fernando Santiago Balsalobre',
+    position: 'Programming Committee',
+    // Assuming the email, linkedin, and image details are not available for Fernando Santiago Balsalobre
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/fernando-santiago-balsalobre-877a87253/',
+    image: '/fernando.jpeg',
+  },
+  {
+    name: 'Jenny Lin',
+    position: 'Programming Committee',
+    // Assuming the email, linkedin, and image details are not available for Jenny Lin
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/jenny-lin28/',
+    image: '/jenny.jpeg',
+  },
+  {
+    name: 'Matthew Sielaff',
+    position: 'Programming Committee',
+    // Assuming the email, linkedin, and image details are not available for Matthew Sielaff
+    email: '',
+    linkedin: 'https://www.linkedin.com/in/matthew-sielaff/',
+    image: '/matthew.jpeg',
+  }
+];
+
   
 const ExecutiveBoard = () => {
   return (

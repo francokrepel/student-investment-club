@@ -126,8 +126,8 @@ export default function Home() {
         {/* Calendar */}
         <div className="my-6 ">
           <h2 className="text-3xl font-bold mb-6 text-center" >Event Calendar</h2>
-          <p className="relative w-full md:w-3/4 lg:w-1/2"></p>
-          <div className="w-full mx-auto invert saturate-50 hue-rotate-30 ">
+          <p className="flex justify-center text-center mb-6"></p>
+          <div className="w-full mx-auto invert saturate-50 hue-rotate-30 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh]">
             <div className="pb-[50%] md:pb-[66.666%]"></div>
             <iframe
               src='https://calendar.google.com/calendar/b/2/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=dWZsb3JpZGFzaWNAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2322AA99&amp;color=%23329262&amp;color=%231F753C&amp;showTz=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTitle=0'
