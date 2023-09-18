@@ -12,10 +12,10 @@ const executiveBoardMembers = [
   },
   {
     name: 'Abby Perini',
-    position: 'VP',
+    position: 'Vice President',
     email: 'lperini@ufl.edu',
     linkedin: 'https://www.linkedin.com/in/lauren-abby-perini/',
-    image: '/abby.jpg',
+    image: '/abby.png',
   },
   {
     name: 'Devin Mohr',
