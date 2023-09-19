@@ -124,7 +124,7 @@ export default function Home() {
 
 
       {/* Calendar */}
-      {/* <div className="my-6 ">
+      <div className="my-6 ">
         <h2 className="text-3xl font-bold mb-6 text-center">Event Calendar</h2>
         <div className="relative w-full mx-auto invert saturate-50 hue-rotate-30 h-[50vh] md:h-[60vh] lg:h-[70vh]">
           <iframe
@@ -133,7 +133,7 @@ export default function Home() {
             className="absolute top-0 left-0 w-full h-full rounded-lg"
           />
         </div>
-      </div> */}
+      </div>
 
       </section>
     </div>
