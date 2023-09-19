@@ -113,7 +113,7 @@ const executiveBoardMembers = [
     // Assuming the email, linkedin, and image details are not available for Gracie Ding
     email: '',
     linkedin: '',
-    image: '',
+    image: '/gracie.png',
   },
   {
     name: 'Fernando Santiago Balsalobre',
