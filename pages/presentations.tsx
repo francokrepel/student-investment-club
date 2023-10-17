@@ -6,6 +6,19 @@ const presentations = [
         date: '2023-09-26',
         embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vTDOQj9B8zxtyyr6n6G0lNYGTI7kFTbuMf1NIfOQssKbA3awavQ-slqIqdc1VexOQ/embed?start=false&loop=false&delayms=3000'
     },
+    {
+        title: 'Market Sector Breakdown',
+        date: '2023-10-03',
+        embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vTf8raj8MmC7dzbKCVIFdy5U7RaDSRIEkoO6acu29lAyubfXMSnb8YGDv_dg-lnBw/embed?start=false&loop=false&delayms=3000'
+    },
+    {
+        title: 'Resume and Interview Workshop',
+        date: '2023-10-10',
+        embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vR2Pwiq4lF8-06qesyj33rJh2fITL2kU8Lj-9vJkAljE4FOWGB9P6P__QkmF3uUag/embed?start=false&loop=false&delayms=3000'
+    },
+
+
+    
 ];
 
 const Presentations = () => {

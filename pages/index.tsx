@@ -7,6 +7,9 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Image from 'next/image'
 
 const meeting_images = [
+  '/meeting_pic_6.jpg',
+  '/meeting_pic_7.jpg',
+  '/meeting_pic_8.jpg',
   '/meeting_pic_1.jpeg',
   '/meeting_pic_2.jpeg',
   '/meeting_pic_3.jpeg',
