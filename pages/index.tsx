@@ -96,7 +96,7 @@ export default function Home() {
         <div className="my-12 text-center">
           <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-100 to-teal-400">Interested in joining?</h2>
           <p className="text-lg mb-6">
-            Join our meetings every Tuesday at 6:30 PM in Heavener Hall 140.
+            Join our meetings every Tuesday at 6:30 PM in Stuzin 101.
           </p>
 
           {/* Social Media Buttons */}
