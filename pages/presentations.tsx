@@ -16,6 +16,16 @@ const presentations = [
         date: '2023-10-10',
         embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vR2Pwiq4lF8-06qesyj33rJh2fITL2kU8Lj-9vJkAljE4FOWGB9P6P__QkmF3uUag/embed?start=false&loop=false&delayms=3000'
     },
+    {
+        title: 'Retirement Planning',
+        date: '2023-10-17',
+        embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vS3bzMkNLSPY2mXAvvndXUEwlg5YVg2ywpyd03_a8i0a4av5c9kDa01AhPpBNG_QQ/embed?start=false&loop=false&delayms=3000'
+    },
+    {
+        title: 'Technical Skills Workshop',
+        date: '2023-10-31',
+        embedUrl: 'https://docs.google.com/presentation/d/e/2PACX-1vRCit63oOkQ3XtVQ1KC7-w0xHgcBD5GYGu3nmQAHZInRhLob8D-6aGbH_sRBXEj_g/embed?start=false&loop=false&delayms=3000'
+    }
 
 
     
