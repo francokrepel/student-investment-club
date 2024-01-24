@@ -9,6 +9,11 @@ const hallOfFameData = [
     profileImg: '/derp.png',
     gain: '910.012%',
   },
+  {
+    semester: 'Fall 2023',
+    winner: 'Paul Pham',
+    profileImg: '/paulpham.jpeg'
+  }
   // Add more winners here...
 ];
 

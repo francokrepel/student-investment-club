@@ -9,8 +9,12 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  console.log('Initial isMenuOpen:', isMenuOpen);
+
   const toggleMenu = () => {
+    console.log('toggleMenu function called');
     setIsMenuOpen(!isMenuOpen);
+
   };
 
   return (
