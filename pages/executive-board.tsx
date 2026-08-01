@@ -63,13 +63,6 @@ const executiveBoardMembers = [
     image: '/moksha.jpeg',
   },
   {
-    name: 'Jonathan Tibi',
-    position: 'Recruiting Committee Head',
-    email: 'jonathan.tibi@warrington.ufl.edu',
-    linkedin: 'https://www.linkedin.com/in/jonathan-tibi/',
-    image: '/jonathon_tibi.png',
-  },
-  {
     name: 'Luke Riahifar',
     position: 'Recruiting Committee',
     // Assuming the email, linkedin, and image details are not available for Luke Riahifar
@@ -84,14 +77,6 @@ const executiveBoardMembers = [
     email: '',
     linkedin: 'https://www.linkedin.com/in/brijeshcpatel/',
     image: '/brijesh.jpeg',
-  },
-  {
-    name: 'Josiah Park',
-    position: 'Recruiting Committee',
-    // Assuming the email, linkedin, and image details are not available for Josiah Park
-    email: '',
-    linkedin: 'https://www.linkedin.com/in/josiahpark/',
-    image: '/josiah.jpeg',
   },
   {
     name: 'Michael Rooth',
