@@ -18,13 +18,6 @@ const executiveBoardMembers = [
     image: '/abby.png',
   },
   {
-    name: 'Devin Mohr',
-    position: 'Treasurer',
-    email: 'd.mohr@ufl.edu',
-    linkedin: 'https://www.linkedin.com/in/devinmohr/',
-    image: '/devin.png',
-  },
-  {
     name: 'Kameron Lubben',
     position: 'Secretary',
     email: 'klubben@ufl.edu',
